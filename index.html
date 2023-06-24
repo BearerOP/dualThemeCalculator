@@ -80,6 +80,16 @@ themeToggleBtn.onclick = () => {
     themeToggleBtn.classList.toggle("active");
     isDark = !isDark;
 };
+
+ //comeback message for tab bar
+let docTitle = document.title;
+window.addEventListener("blur",()=>{
+  document.title="Come back :(";
+
+})
+window.addEventListener("focus",()=>{
+  document.title=docTitle;
+})
 </script>
 </body>
 
