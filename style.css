@@ -89,6 +89,8 @@ form .display-screen input {
     font-size: 36px;
     box-shadow: none;
     padding-left: 20px;
+    padding-right: 10px;
+    overflow-x:scroll;
 }
 
 form input.equal {
